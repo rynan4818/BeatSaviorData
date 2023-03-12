@@ -27,16 +27,17 @@ namespace BeatSaviorData.UI
             donationsText.color = new Color32(0, 88, 90, 255);
 
             postParseDone = true;
-            Refresh();
+            //Refresh();
         }
 
+        /*
         public void Refresh()
         {
             if (!postParseDone)
                 return;
 
             // Get data here
-            HttpResponseMessage res = HTTPManager.client.GetAsync("https://mystogan.omedan.me/leaderboards/API/speedons").Result;
+            //HttpResponseMessage res = HTTPManager.client.GetAsync("https://mystogan.omedan.me/leaderboards/API/speedons").Result;
             string donations = res.Content.ReadAsStringAsync().Result;
 
             if (donations == "0")
@@ -44,5 +45,6 @@ namespace BeatSaviorData.UI
             else
                 donationsText.text = donations + " €";
         }
+        */
     }
 }

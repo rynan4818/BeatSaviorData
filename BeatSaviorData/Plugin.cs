@@ -133,7 +133,7 @@ namespace BeatSaviorData
 						Logger.log.Info("Fail upload is disabled in the settings.");
 					else
 					{
-						HTTPManager.UploadSongJson(songData.GetTrackersResults());
+						//HTTPManager.UploadSongJson(songData.GetTrackersResults());
 					}
 				}
 

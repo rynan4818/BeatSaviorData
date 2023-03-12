@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
 namespace BeatSaviorData
 {
 	class HTTPManager
@@ -15,7 +16,7 @@ namespace BeatSaviorData
 			{
 				try
 				{
-					await Upload(json, PrivateKeys.BeatSaviorPlayerDataUploadURL);
+					//await Upload(json, PrivateKeys.BeatSaviorPlayerDataUploadURL);
 				}
 				catch (Exception ex)
 				{
@@ -35,7 +36,7 @@ namespace BeatSaviorData
 			{
 				try
 				{
-					await Upload(json, PrivateKeys.BeatSaviorSongUploadUrl);
+					//await Upload(json, PrivateKeys.BeatSaviorSongUploadUrl);
 				}
 				catch (Exception ex)
 				{
@@ -52,7 +53,7 @@ namespace BeatSaviorData
 			{
 				try
 				{
-					await Upload(json, SettingsMenu.instance.CustomUploadUrl);
+					//await Upload(json, SettingsMenu.instance.CustomUploadUrl);
 				}
 				catch (Exception ex)
 				{
@@ -74,3 +75,4 @@ namespace BeatSaviorData
 		}
 	}
 }
+*/

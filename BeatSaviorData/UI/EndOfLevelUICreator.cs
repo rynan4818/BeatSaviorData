@@ -74,7 +74,7 @@ namespace BeatSaviorData
             {
 				if (speedonsUI == null)
 					speedonsUI = BeatSaberUI.CreateViewController<SpeedonsUI>();
-				speedonsUI.Refresh();
+				//speedonsUI.Refresh();
             }
 		}
 	}
